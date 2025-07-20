@@ -1,77 +1,75 @@
-Networking Revision Lab – Packet Tracer
-This project is a comprehensive networking revision lab that I built for myself using Cisco Packet Tracer.
-The goal was to review and practice most of the topics I’ve learned during my networking journey, including both basic and advanced concepts.
+# Networking Revision Lab – Packet Tracer
 
-Lab Overview
-The lab includes:
+A **complete networking revision lab** designed in **Cisco Packet Tracer** to practice and review core networking concepts, including IoT, VLANs, VoIP, Server Configurations, Wireless, and Security.
 
-IoT Devices
+## 🗂️ Lab Components
 
-IoT sensors configured and connected
+### 🔧 **Network Features**
 
-Smart devices controlled via a management dashboard
+- **IoT Implementation**
+  - Sensors connected and configured
+  - Smart devices managed via IoT dashboard
 
-VLANs & Wireless
+- **VLANs & Wireless**
+  - **VLAN 10** – Employee Network (with wireless access)
+  - **VLAN 20** – Guest Network (with wireless access)
+  - **VLAN 99** – Management Network (for SSH and administration)
 
-VLAN 10: Employee Network
+- **VoIP Setup**
+  - VoIP phones with IP and number assignment via DHCP
 
-VLAN 20: Guest Network
+- **Server Configurations**
+  - **NTP Server** – Network time synchronization
+  - **Syslog Server** – Log management
+  - **Web Server** – Hosted website with DNS integration
+  - **DNS Server** – Domain name resolution
 
-VLAN 99: Management Network
+- **Security**
+  - **Access Control Lists (ACLs)** to control traffic and secure access
+  - **SSH Access** limited to VLAN 99 (Management VLAN) only
 
-Wireless access configured for both VLANs
+- **Routing**
+  - **Internal Routing:** Configured on Multi-layer Switch (Inter-VLAN Routing)
+  - **External Routing:** Configured on a Router (simulating cloud connectivity)
 
-VoIP Configuration
+### 🌐 **IP Addressing**
 
-VoIP phones with assigned numbers and IPs
+- **DHCP**: Automatic IP assignment for all VLANs and VoIP devices  
+- **Static IPs**: Used where necessary for specific devices and servers  
+- **IoT Sensors**: Mix of static and DHCP IPs based on use case
 
-DHCP assigned IP addresses to VoIP devices
+---
 
-Servers
+## 🎯 **Purpose of the Lab**
 
-NTP Server for time synchronization
+This project is ideal for:
 
-Syslog Server for logging network events
+- **Revising core networking concepts**
+- **Hands-on practice in Packet Tracer**
+- Preparing for certifications like **CCNA**
+- Learning real-world scenarios: IoT, VLANs, VoIP, Wireless, Servers, Security, Routing
 
-Web Server (with DNS mapping)
+---
 
-DNS Server for domain name resolution
+## 🚀 **How to Run the Lab**
 
-Security
+1. Download the `.pkt` file  
+2. Open it using **Cisco Packet Tracer (version 8.x recommended)**  
+3. Watch the [video walkthrough](#) for a demo (Link to be added)  
+4. Feel free to modify and expand the lab to suit your needs
 
-ACLs (Access Control Lists) applied to secure the network
+---
 
-SSH Access restricted to the management VLAN only
+## 📬 **Get in Touch**
 
-Routing
+If you'd like to get the lab file or have any questions:
 
-Internal Routing: Configured on Multi-layer Switch
+- DM me on LinkedIn  
+- Or download directly from [GitHub](#) (Link to be added)
 
-External Routing: Done via a router acting as the connection to the cloud
+---
 
-IP Addressing
-Dynamic IP assignment (DHCP) is configured for all VLANs and VoIP devices.
+## 📌 **Hashtags**
 
-IoT devices have static or DHCP-assigned IPs depending on the scenario.
-
-Purpose of the Lab
-This lab is meant for:
-
-Revising practical networking concepts
-
-Practicing real-life network design in Packet Tracer
-
-Preparing for certifications like CCNA
-
-Helping anyone who wants to test their skills in IoT, VLANs, VoIP, wireless, routing, and security in one environment
-
-How to Use
-Open the .pkt file in Cisco Packet Tracer (Version 8.x recommended)
-
-Watch the video demo (linked in the repo) for a walkthrough
-
-Modify or expand the lab based on your needs
-
-Contact
-If you have any questions or need help with the lab setup, feel free to contact me privately or via LinkedIn.
+`#Networking` `#PacketTracer` `#Cisco` `#IoT` `#VoIP` `#WirelessNetworking` `#CCNA` `#NetworkSecurity` `#ITLabs` `#SelfLearning`
 
