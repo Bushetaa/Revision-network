@@ -25,7 +25,7 @@ A **complete networking revision lab** designed in **Cisco Packet Tracer** to pr
   - **DNS Server** – Domain name resolution
 
 - **Security**
-  - **Access Control Lists (ACLs)** to control traffic and secure access
+  - **Access Control Lists (ACLs)** applied to control traffic and secure access
   - **SSH Access** limited to VLAN 99 (Management VLAN) only
 
 - **Routing**
@@ -55,8 +55,8 @@ This project is ideal for:
 
 1. Download the `.pkt` file  
 2. Open it using **Cisco Packet Tracer (version 8.x recommended)**  
-3. Watch the [video walkthrough](#) for a demo (Link to be added)  
-4. Feel free to modify and expand the lab to suit your needs
+3. Watch the video walkthrough (link coming soon)  
+4. Modify and expand the lab as you like
 
 ---
 
@@ -65,11 +65,11 @@ This project is ideal for:
 If you'd like to get the lab file or have any questions:
 
 - DM me on LinkedIn  
-- Or download directly from [GitHub](#) (Link to be added)
+- Or download directly from GitHub:  
+[https://github.com/Bushetaa/Revision-network.git](https://github.com/Bushetaa/Revision-network.git)
 
 ---
 
 ## 📌 **Hashtags**
 
 `#Networking` `#PacketTracer` `#Cisco` `#IoT` `#VoIP` `#WirelessNetworking` `#CCNA` `#NetworkSecurity` `#ITLabs` `#SelfLearning`
-
